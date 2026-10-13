@@ -1,0 +1,98 @@
+body {
+  background: radial-gradient(circle at center, #f3eee7 50%, #b2a690 100%);
+  margin: 0;
+  padding: 60px 0;
+}
+
+.frame-wrap {
+  position: relative;
+  width: 624px;
+  height: 624px;
+  margin: 0 auto;
+}
+
+.frame-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 624px;
+  height: 624px;
+  box-shadow: inset 1px 2px 6px 2px rgba(2, 1, 1, 0.45);
+}
+
+.frame {
+  width: 600px;
+  height: 600px;
+  border: 12px solid #d9a98a;
+  outline: 4px solid #996744;
+  outline-offset: -12px;
+  box-shadow: 2px 30px 2px 9px #9a8874;
+}
+
+.painting {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 294px;
+  background-color: #ddd9d4;
+  background: radial-gradient(circle at bottom, #ddd9d4 50%, #b2a690 100%);
+}
+
+.ground {
+  position: absolute;
+  top: 294px;
+  left: 0;
+  width: 600px;
+  height: 306px;
+  background: radial-gradient(circle at top, #282121 50%, #473a2d 100%);
+}
+
+.circle-top {
+  position: absolute;
+  top: 144px;
+  left: 150px;
+  width: 300px;
+  height: 150px;
+  border-radius: 150px 150px 0 0;
+  background: radial-gradient(circle at bottom, #fab9ac 10%, #fcf4f0 40%);
+}
+
+.circle-bottom {
+  position: absolute;
+  top: 294px;
+  left: 150px;
+  width: 300px;
+  height: 150px;
+  border-radius: 0 0 150px 150px;
+  background: radial-gradient(circle at top, #727251, #5f4a35, #5d3524 90%);
+}
+
+.triangle-white {
+  position: absolute;
+  top: 142px;
+  left: 213px;
+  width: 0;
+  height: 0;
+  border-left: 87px solid transparent;
+  border-right: 87px solid transparent;
+  border-top: 150px solid #fbfaf8;
+}
+
+.triangle-black {
+  position: absolute;
+  top: 294px;
+  left: 213px;
+  width: 0;
+  height: 0;
+  border-left: 87px solid transparent;
+  border-right: 87px solid transparent;
+  border-bottom: 150px solid #14110f;
+}
