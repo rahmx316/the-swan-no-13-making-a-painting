@@ -79,27 +79,25 @@ body {
   position: absolute;
   top: 142px;
   left: 213px;
-  width: 0;
-  height: 0;
-  border-left: 87px solid transparent;
-  border-right: 87px solid transparent;
-  border-top: 150px solid #fbfaf8;
+  width: 174px;
+  height: 150px;
+  background-color: #fbfaf8;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
 }
 
 .triangle-black {
   position: absolute;
-  top: 294px;
+  top: 295px;
   left: 213px;
-  width: 0;
-  height: 0;
-  border-left: 87px solid transparent;
-  border-right: 87px solid transparent;
-  border-bottom: 150px solid #14110f;
+  width: 174px;
+  height: 150px;
+  background-color: #14110f;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
 
 .border-top-tri {
   position: absolute;
-  top: 140px;
+  top: 139px;
   left: 207px;
   width: 186px;
   height: 160px;
@@ -109,10 +107,10 @@ body {
 
 .border-bottom-tri {
   position: absolute;
-  top: 288px;
-  left: 207px;
-  width: 186px;
-  height: 160px;
-  background: linear-gradient(to right, #7e4a2c, #413056, #707ca0);
+  top: 294px;
+  left: 205px;
+  width: 190px;
+  height: 156px;
+  background: linear-gradient(to right, #7e4a2c, #413056, #30364a);
   clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
